@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Letter For You</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #f8f5ef;
+            color: #39352f;
+            font-family: 'DM Sans', sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 35px 18px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 680px;
+            animation: appear 1s ease;
+        }
+
+        .top {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .top span {
+            font-size: 11px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #a38b70;
+        }
+
+        .letter {
+            background: #fffefa;
+            padding: 55px;
+            border: 1px solid #eae3d8;
+            border-radius: 5px;
+
+            box-shadow: 0 15px 45px rgba(65, 50, 30, 0.06);
+        }
+
+        .date {
+            color: #a38b70;
+            font-size: 12px;
+            letter-spacing: 1px;
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(30px, 6vw, 43px);
+            font-weight: 500;
+            line-height: 1.3;
+            margin-bottom: 30px;
+            color: #40372f;
+        }
+
+        h1 span {
+            color: #aa806c;
+            font-style: italic;
+        }
+
+        .content {
+            font-size: 15px;
+            line-height: 2;
+            color: #686158;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+        }
+
+        .signature {
+            margin-top: 35px;
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-style: italic;
+            color: #9c7863;
+        }
+
+        .divider {
+            width: 45px;
+            height: 1px;
+            background: #d8c6b1;
+            margin: 35px 0;
+        }
+
+        .ending {
+            text-align: center;
+            padding: 10px 0 5px;
+        }
+
+        .ending p {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(21px, 5vw, 27px);
+            font-style: italic;
+            line-height: 1.6;
+            color: #9c7863;
+        }
+
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateY(15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 550px) {
+            .letter {
+                padding: 35px 25px;
+            }
+
+            .content {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="top">
+            <span>A little something for you</span>
+        </div>
+
+        <section class="letter">
+
+            <div class="date">
+                A little letter, just for today.
+            </div>
+
+            <h1>
+                Happy Princess Day,<br>
+                <span>Seherrrrreeeeeeeeeeeee.</span>
+            </h1>
+
+            <div class="content">
+
+                <p>
+                    Forever in my life, In Sha Allah.
+                </p>
+
+                <p>
+                    I'll try not to just talk about it, but to actually
+                    make sure I treat you like the princess I always tell
+                    you that you are.
+                </p>
+
+                <p>
+                    And I'll repeat this again: I'm always there for you,
+                    even for the smallest, clingiest things. I wish to
+                    treat you the best, and I'm genuinely trying my best
+                    to understand you better every day.
+                </p>
+
+                <p>
+                    I might not always get everything right, but I hope
+                    you know that the effort and intention are always there.
+                </p>
+
+                <p>
+                    As your little Princess Day gift, there's something
+                    special below. Make sure to keep this pass safe.
+                    Even if it isn't physically present or gets lost,
+                    that's completely fine. Just remind me about it.
+                </p>
+
+                <p>
+                    And whenever I refuse to do something you demand
+                    in terms of any treatment, just use this pass.
+                    Consider it your little reminder that you deserve
+                    to be treated with love.
+                </p>
+
+            </div>
+
+            <div class="signature">
+                Always here, In Sha Allah.
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="ending">
+                <p>
+                    I love you more than One Piece and Ronaldo.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
